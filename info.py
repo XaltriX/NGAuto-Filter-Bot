@@ -25,7 +25,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 # ============================
 # Bot Settings Configuration
 # ============================
-CACHE_TIME = int(environ.get('CACHE_TIME', 600))    # Cache time in seconds (default: 5 minutes)
+CACHE_TIME = int(environ.get('CACHE_TIME', 1800))    # Cache time in seconds (default: 5 minutes)
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))  # Use caption filter for search results (default: True)
 INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when idexing make it False if you dont use USE_CAPTION_FILTER for search results (default: True)
 #Making it false will not save caption in db SO you can save some storage space
@@ -53,7 +53,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002978676011')  # Request cha
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+BVrd4TNNbT05ZjM0')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
-auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002343938274")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
+auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1003391421319")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
 auth_channels     = environ.get("AUTH_CHANNELS", "-1001980994910")# Channels for force sub (make sure bot is admin)
 
 # ============================
@@ -78,8 +78,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "newbot") # Database name (default:
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegraam_files') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Renamer:ZenitsuBot@cluster0.wxgxdz9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
 # ============================
 # Movie Notification & Update Settings
 # ============================

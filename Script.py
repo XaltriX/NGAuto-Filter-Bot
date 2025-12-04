@@ -216,12 +216,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """✨ <b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b> ✨
+     CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a></b>"""
 
-📦 <b>File Name :</b> <i>{file_name}</i>
-⚡ <b>Enjoy Your Media!</b>
-
-💠 <b>Powered By :</b> <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a>"""
 
 
     

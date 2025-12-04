@@ -36,7 +36,7 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>@NeonGhost</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>𝙉𝙚𝙤𝙣𝙂𝙝𝙤𝙨𝙩</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -216,9 +216,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-     CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a></b>"""
-
-
+    CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
@@ -519,4 +517,5 @@ This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Co
 
 
 
+    
 

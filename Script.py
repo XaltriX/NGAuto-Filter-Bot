@@ -36,7 +36,7 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>AJK_BOY_OFFICAL</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>@NeonGhost</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -216,26 +216,30 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/AJK_BOY_OFFICAL">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/AJK_BOY_OFFICAL">[ @AJK_BOY_OFFICAL ]</a></b>"""
+CAPTION = """✨ <b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>
+
+📂 <b>File:</b> {file_name}
+⚡ <b>Enjoy Streaming & Download!</b>
+
+💠 <b>Powered by:</b> <a href="https://t.me/NeonGhost_Network">@NeonGhost_Network</a>"""
 
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+  MOVIE_UPDATE_NOTIFY_TXT = """
+</b><a href={poster_url}>📥</a> <a href={imdb_url}>✨ New {tag} Added ✨</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
-
-
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+⏹️━━━━━━━━━━━━⏹️
+🎬  ᴛɪᴛʟᴇ  : <code>{filename}</code>
+🎭  ɢᴇɴʀᴇs : <b>{genres}</b>
+📺  ᴏᴛᴛ    : <b>{ott}</b>
+🎞️  ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
+🎧  ᴀᴜᴅɪᴏ   : <b>{language}</b>
+🔥  ʀᴀᴛɪɴɢ  : <b>{rating}</b>
 {episodes}
-</blockquote>
+⏹️━━━━━━━━━━━━⏹️
 
-
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
+🔎  <b>Sᴇᴀʀᴄʜ →</b> {search_link}
 """
+
 
 
     IMDB_TEMPLATE_TXT = """
@@ -249,12 +253,12 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <b>Requested by : {message.from_user.mention}</b>"""
 
     LOGO = r"""
-    ██████╗░██████╗░███████╗░█████╗░███╗░░░███╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
-    ██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗░████║╚██╗██╔╝██╔══██╗██╔══██╗╚══██╔══╝╚════██║
-    ██║░░██║██████╔╝█████╗░░███████║██╔████╔██║░╚███╔╝░██████╦╝██║░░██║░░░██║░░░░░███╔═╝
-    ██║░░██║██╔══██╗██╔══╝░░██╔══██║██║╚██╔╝██║░██╔██╗░██╔══██╗██║░░██║░░░██║░░░██╔══╝░░
-    ██████╔╝██║░░██║███████╗██║░░██║██║░╚═╝░██║██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
-    ╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
+     _______                        ________.__                    __   
+ \      \   ____  ____   ____  /  _____/|  |__   ____  _______/  |_ 
+ /   |   \_/ __ \/  _ \ /    \/   \  ___|  |  \ /  _ \/  ___/\   __\
+/    |    \  ___(  <_> )   |  \    \_\  \   Y  (  <_> )___ \  |  |  
+\____|__  /\___  >____/|___|  /\______  /___|  /\____/____  > |__|  
+        \/     \/           \/        \/     \/           \/        
 
     𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈....
     """
@@ -394,7 +398,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
 This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/AJK_BOY_OFFICAL>𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</a>\n """
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/NeonGhost_Network>𝓝𝓮𝓸𝓷𝓖𝓱𝓸𝓼𝓽_𝓝𝓮𝓽𝔀𝓸𝓻𝓴</a>\n """
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :

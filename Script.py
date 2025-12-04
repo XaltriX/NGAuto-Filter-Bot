@@ -36,7 +36,7 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>@NeonGhost</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>AJK_BOY_OFFICAL</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -216,9 +216,10 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/AJK_BOY_OFFICAL">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/AJK_BOY_OFFICAL">[ @AJK_BOY_OFFICAL ]</a></b>"""
 
- MOVIE_UPDATE_NOTIFY_TXT = """
+    
+    MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
 <blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
@@ -235,8 +236,6 @@ CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n
 
 🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
 """
-
-
 
 
     IMDB_TEMPLATE_TXT = """
@@ -259,8 +258,6 @@ CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n
 
     𝙱𝙾𝚃 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈....
     """
-
-
 
 
     #PLANS
@@ -397,7 +394,7 @@ CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
 This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/NeonGhost_Network>𝓝𝓮𝓸𝓷𝓖𝓱𝓸𝓼𝓽_𝓝𝓮𝓽𝔀𝓸𝓻𝓴</a>\n """
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/AJK_BOY_OFFICAL>𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</a>\n """
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
@@ -520,4 +517,4 @@ This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Co
 
 
 
-    
+

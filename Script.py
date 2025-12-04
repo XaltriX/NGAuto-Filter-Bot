@@ -216,12 +216,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-CAPTION = """✨ <b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>
-
-📂 <b>File:</b> {file_name}
-⚡ <b>Enjoy Streaming & Download!</b>
-
-💠 <b>Powered by:</b> <a href="https://t.me/NeonGhost_Network">@NeonGhost_Network</a>"""
+CAPTION = """<b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a></b>"""
 
  MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>

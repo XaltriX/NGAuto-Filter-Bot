@@ -222,7 +222,6 @@ CAPTION = """✨ <b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b>
 ⚡ <b>Enjoy Streaming & Download!</b>
 
 💠 <b>Powered by:</b> <a href="https://t.me/NeonGhost_Network">@NeonGhost_Network</a>"""
-import textwrap
 
  MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>

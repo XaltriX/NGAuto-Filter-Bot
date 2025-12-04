@@ -36,7 +36,7 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>AJK_BOY_OFFICAL</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>@NeonGhost</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -216,7 +216,13 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/AJK_BOY_OFFICAL">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/AJK_BOY_OFFICAL">[ @AJK_BOY_OFFICAL ]</a></b>"""
+    CAPTION = """✨ <b><a href="https://t.me/NeonGhost_Network">{file_name}</a></b> ✨
+
+📦 <b>File Name :</b> <i>{file_name}</i>
+⚡ <b>Enjoy Your Media!</b>
+
+💠 <b>Powered By :</b> <a href="https://t.me/NeonGhost_Network">[ @NeonGhost_Network ]</a>"""
+
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """

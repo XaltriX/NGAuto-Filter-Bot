@@ -216,16 +216,32 @@ SESSION_NAME = str(environ.get('SESSION_NAME', 'dreamXBotz'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'DREAMXBOTZ'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-if 'DYNO' in environ:
-    ON_HEROKU = True
-    APP_NAME = str(getenv('APP_NAME'))
+# ============================
+# Server & Web Configuration (FIXED)
+# ============================
+
+ON_HEROKU = 'DYNO' in environ
+
+APP_NAME = environ.get(
+    "APP_NAME",
+    "movie-master-bot-43b0e27a37c7"
+)
+
+BIND_ADRESS = getenv("WEB_SERVER_BIND_ADDRESS", "0.0.0.0")
+
+if getenv("FQDN"):
+    FQDN = getenv("FQDN")
+elif ON_HEROKU:
+    FQDN = f"{APP_NAME}.herokuapp.com"
 else:
-    ON_HEROKU = False
-HAS_SSL = bool(getenv('HAS_SSL', True))
-if HAS_SSL:
-    URL = "https://obscure-peak-17030-074d70413130.herokuapp.com".format(FQDN)
-else:
-    URL = "https://obscure-peak-17030-074d70413130.herokuapp.com".format(FQDN)
+    FQDN = BIND_ADRESS
+
+PORT = int(environ.get("PORT", "8080"))
+NO_PORT = bool(environ.get("NO_PORT", False))
+
+URL = f"https://{FQDN}" if (ON_HEROKU or NO_PORT) else f"http://{FQDN}:{PORT}"
+
+
 
 # ============================
 # Reactions Configuration

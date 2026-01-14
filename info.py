@@ -209,7 +209,7 @@ ON_HEROKU = 'DYNO' in environ
 # APP_NAME must NEVER be None
 APP_NAME = environ.get(
     'APP_NAME',
-    'movie-master-bot-43b0e27a37c7'   # fallback Heroku app name
+    'movie-master-bot2-5f47bbd93d38'   # fallback Heroku app name
 )
 
 BIND_ADRESS = getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0')

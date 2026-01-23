@@ -1,5 +1,5 @@
 class script(object):
-   START_TXT = """<b><u>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</u></b>
+    START_TXT = """<b><u>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</u></b>
 
 <b>ʜᴇʏ {}, {} 👋</b>
 
@@ -14,9 +14,7 @@ https://t.me/+tIgr2ZNOuXwwYjZl
 <b>✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NeonGhost_Network</b>
 """
 
-
-
-   GSTART_TXT = """<b>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</b>
+    GSTART_TXT = """<b>🚩 ᴡᴇʟᴄᴏᴍᴇ 🚩</b>
 
 <b>ʜᴇʏ {} 👋</b>
 
@@ -28,8 +26,7 @@ https://t.me/+tIgr2ZNOuXwwYjZl
 <b>✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NeonGhost_Network</b>
 """
 
-    
-   HELP_TXT = """<b>
+    HELP_TXT = """<b>
 ✨ ʜᴏᴡ ᴛᴏ ʀᴇǫᴜᴇꜱᴛ ᴄᴏɴᴛᴇɴᴛ ✨
 
 🔍 ꜱᴛᴇᴘꜱ:
@@ -48,8 +45,7 @@ https://t.me/+tIgr2ZNOuXwwYjZl
 ⚡ ᴜꜱᴇ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ ꜰᴏʀ ꜰᴀꜱᴛ ʀᴇꜱᴜʟᴛꜱ
 </b>"""
 
-
-ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
+    ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>𝙉𝙚𝙤𝙣𝙂𝙝𝙤𝙨𝙩</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
@@ -67,7 +63,6 @@ ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code> v1.4 [ Sᴛᴀʙʟᴇ ]</code>
 </b>"""
-
    CHANNELS = """
 <b>✶━━━〔 🌐 ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ 〕━━━✶
 

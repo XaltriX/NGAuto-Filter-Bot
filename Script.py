@@ -49,17 +49,15 @@ https://t.me/+tIgr2ZNOuXwwYjZl
 </b>"""
 
 
-    ABOUT_TXT = """<b>╭───────〔 🤖 ʙᴏᴛ ɪɴꜰᴏ 〕───────✦
+ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/NeonGhost">𝙉𝙚𝙤𝙣𝙂𝙝𝙤𝙨𝙩</a>
-├⍟ Lɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
-├⍟ Lᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 𝟹
-├⍟ Dᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏᴅʙ
-├⍟ Sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
-├⍟ Bᴜɪʟᴅ : ᴠ1.4 [ ꜱᴛᴀʙʟᴇ ]
-╰────────────────────────✦</b>"""
-
-
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>𝙉𝙚𝙤𝙣𝙂𝙝𝙤𝙨𝙩</a> 
+├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
+├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ1.4 [ ꜱᴛᴀʙʟᴇ ]
+╰───────────────⍟</b>"""
     RESTART_TXT = """
 <b>{} Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
